@@ -69,8 +69,8 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+2PP6GOuq1KUzNDU1")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+2PP6GOuq1KUzNDU1")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/somueditingzone")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+7kCwP6b4qEkxZjZl")
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 
@@ -143,7 +143,7 @@ confirmer = {}
 # ------------------------------------------------------------------------
 # ------------------------------------------------------------------------
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/cfbdee8103102bcb2e5da.jpg"
+    "START_IMG_URL", "https://telegra.ph/file/dd65f344b599b33309c2d.mp4"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://telegra.ph/file/00360393a15daf7fc4e9d.jpg"
