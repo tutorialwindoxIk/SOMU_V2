@@ -9,26 +9,28 @@ from pyrogram import filters
 load_dotenv()
 # ------------------------------------
 # -----------------------------------------------------
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = 26268653
+API_HASH = "fe49634b55eea98671533859d04ea81d"
+BOT_TOKEN = "5759235328:AAF6HheZWL8pbAm3SCZsiOTDnv5c8JsBkBc"
+MONGO_DB_URI = "mongodb+srv://Yash1:Yash1@cluster0.jvuxh49.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 120))
+LOGGER_ID = -1001861619812
+OWNER_ID = 5016109398
 
 EVAL = list(map(int, getenv("EVAL", "7070591202 6971100005").split()))
 # ------------------------------------------------------
-BOT_TOKEN = getenv("BOT_TOKEN")
-# -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","Ownergit")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME" , "NexikoBot")
+BOT_USERNAME = "LB_Music_Bot"
 # --------------------------------------------------------
-BOT_NAME = getenv("BOT_NAME" , "Nexiko")
+BOT_NAME = "˹ʟʙ ✘ ᴍᴜꜱɪᴄ˼"
 # ---------------------------------------------------------
-ASSUSERNAME = getenv("ASSUSERNAME" , "MissYumikoo")
+ASSUSERNAME = "LB_Music_Player"
 # ---------------------------------------------------------
 
 
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 
@@ -55,7 +57,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 # ----------------------------------------------------------------
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/somushilpa/SOMU_XD",
+    "https://github.com/somushilpa/lb_M",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv(
@@ -69,8 +71,8 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/somueditingzone")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+7kCwP6b4qEkxZjZl")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Want_To_Know_Me")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/learning_bots")
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 
@@ -116,7 +118,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "5242880000"))
 # ------------------------------------
 # ------------------------------------
 # ------------------------------------
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = "BQFFG-oApXkGj_tiIAYuZ_q5L3jSNKMo0iXzky0wILFmwVhoj_0_4IQjzIQMKiptyMW5JyRt9JIcKkE0iXBYUNwJdxA5WXbDDkJKklKAlrkQA4FjvEG3y_E4Kg7DJJUTBipsND7iGWP74j-yfLrdEvslAaVLQAbRzSeeGCLplCFjImaOksQwbUrra1NVyBzeFZZEhUty7yCOEjlgaAx10mbsPvhI7DNnXqEiO-g5UbQTsHwP548SuZrrAsdMMKXCy3wDRGGPh3rs5ckl2_6y47TOvKN0Hg54rHwnF829dSO0uWwrVJE1q5GQxMv7K8qFUlOS-IoE_IB2h2NNyVb6Zb64NikerwAAAAF-tP5GAA"
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
