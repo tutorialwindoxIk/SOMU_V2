@@ -39,7 +39,7 @@ InlineKeyboardButton("+18", url=f"https://t.me/Want_To_Know_Me"),
     reply_markup = InlineKeyboardMarkup(buttons)
     
     await msg.reply_photo(
-        photo="https://telegra.ph/file/faa1f3ad7116e33d9f402.jpg",
+        photo="https://graph.org/file/462ea653de0a313f8302a.jpg",
         caption=start_txt,
         reply_markup=reply_markup
     )
@@ -62,7 +62,7 @@ async def repo(_, message):
             list_of_users += f"{count}. [{user['login']}]({user['html_url']})\n"
             count += 1
 
-        text = f"""[𝖱𝖤𝖯𝖮 𝖫𝖨𝖭𝖪](https://github.com/DAXXTEAM/DAXXMUSIC) | [𝖦𝖱𝖮𝖴𝖯](https://t.me/HEROKUFREECC)
+        text = f"""[ 𝖫𝖨𝖭𝖪](https://t.me/learningbots79) | [𝖦𝖱𝖮𝖴𝖯](https://t.me/learning_bots)
 | 𝖢𝖮𝖭𝖳𝖱𝖨𝖡𝖴𝖳𝖮𝖱𝖲 |
 ----------------
 {list_of_users}"""
