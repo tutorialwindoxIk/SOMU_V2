@@ -150,7 +150,7 @@ PING_IMG_URL = getenv(
 )
 PLAYLIST_IMG_URL = "https://envs.sh/A3u.jpg"
 STATS_IMG_URL = "https://envs.sh/Kqv.jpg"
-TELEGRAM_AUDIO_URL = "https://graph.org/file/462ea653de0a313f8302a.jpg"
+TELEGRAM_AUDIO_URL = "https://files.catbox.moe/u0t90l.jpg"
 TELEGRAM_VIDEO_URL = "https://graph.org/file/462ea653de0a313f8302a.jpg"
 STREAM_IMG_URL = "https://files.catbox.moe/u0t90l.jpg"
 SOUNCLOUD_IMG_URL = "https://graph.org/file/462ea653de0a313f8302a.jpg"
